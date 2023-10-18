@@ -1,8 +1,25 @@
 body {
     background-color:#FFD9DA;
+    color: #26547C;
 }
-
-h1 h2 h3 h4 h5 h6 {
-    
+h1{
+    font-family:'Bebas Neue';
+    font-size: 60pt;
+}
+p{
+    font-family: 'Gilda Display';
+    font-size:25pt;
+}
+/* Bio Section */
+#bio {
+    background-color:#EA638C;
+    columns: 2;
+    border:4px dashed#26547C;
+    padding:5px;
 
 }
+#bio img{
+    width: 400px;
+    padding: 11px;
+    background-color:#FFD9DA;
+    }
