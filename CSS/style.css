@@ -1,6 +1,6 @@
 body {
     background-color:#FFD9DA;
-    color: #26547C;
+    color: #FFD9DA;
 }
 h1{
     font-family:'Bebas Neue';
@@ -8,18 +8,31 @@ h1{
 }
 p{
     font-family: 'Gilda Display';
-    font-size:25pt;
+    font: size 30pt;
 }
 /* Bio Section */
 #bio {
-    background-color:#EA638C;
-    columns: 2;
-    border:4px dashed#26547C;
+    background-color:#26547D;
+    border:4px dashed#EA638C;
     padding:5px;
+    border-radius: 5px;
+    columns: 2;
+    flex-direction: column;
 
 }
 #bio img{
-    width: 400px;
-    padding: 11px;
+    width:400px;
+    padding: 5px;
     background-color:#FFD9DA;
     }
+
+#portfolio {
+
+}
+#Reviews {
+
+}
+
+#footer {
+    background-color:#26547D;
+}
