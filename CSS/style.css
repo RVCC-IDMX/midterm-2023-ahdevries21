@@ -1,10 +1,15 @@
 body {
-    background-color:#FFD9DA;
-    color: #FFD9DA;
+    background-color:white;
+    
 }
-h1{
+h1,h2,h3,h4,h5,h6 {
     font-family:'Bebas Neue';
     font-size: 60pt;
+    text-align:center;
+}
+h6{
+    font-family:'Bebas Neue';
+    font-size: 40pt; 
 }
 p{
     font-family: 'Gilda Display';
@@ -13,26 +18,48 @@ p{
 /* Bio Section */
 #bio {
     background-color:#26547D;
-    border:4px dashed#EA638C;
+    border:7px double#EA638C;
+    color:#FFD9DA;
     padding:5px;
     border-radius: 5px;
-    columns: 2;
-    flex-direction: column;
+    columns:2;
+    align-items:center;
+
 
 }
+
 #bio img{
     width:400px;
     padding: 5px;
     background-color:#FFD9DA;
-    }
-
-#portfolio {
 
 }
+
+#portfolio {
+    background-color: #89023E;
+    color:#FFD9DA;
+    border-radius: 5px;
+    border:7px double #7E9ACD;
+    columns 3;
+}
+#portfolio img{
+    width:200px;
+    text-align:center;
+}
+#portfolio figure {
+    text-align:center;
+}
+
 #Reviews {
 
 }
 
-#footer {
+footer {
     background-color:#26547D;
+    border:7px double #7E9ACD;
+    color:#FFD9DA;
+    font-size: 15pt;
+    text-align:center;
+    padding: 7px;
+    
 }
