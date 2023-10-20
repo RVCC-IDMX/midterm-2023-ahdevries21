@@ -1,65 +1,72 @@
 body {
-    background-color:white;
-    
+    background-color:#EA638C; 
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-family:'Bebas Neue';
     font-size: 60pt;
-    text-align:center;
+    text-align:center;2222
+    border:7px dotted #FFD9DA;
+    border-radius: 7px;
+    padding-top: 7px;
+    font-style:oblique;
 }
-h6{
-    font-family:'Bebas Neue';
-    font-size: 40pt; 
-}
+
 p{
     font-family: 'Gilda Display';
-    font: size 30pt;
+    font: size 20pt;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: justify;
+    
 }
 /* Bio Section */
-#bio {
-    background-color:#26547D;
-    border:7px double#EA638C;
+#bio{
+    background-color: #26547D;
+    padding:20px;
+    text-align:center;
     color:#FFD9DA;
-    padding:5px;
-    border-radius: 5px;
-    columns:2;
-    align-items:center;
-
-
-}
-
-#bio img{
-    width:400px;
-    padding: 5px;
-    background-color:#FFD9DA;
-
-}
-
-#portfolio {
-    background-color: #89023E;
-    color:#FFD9DA;
-    border-radius: 5px;
     border:7px double #7E9ACD;
-    columns 3;
-}
-#portfolio img{
-    width:200px;
-    text-align:center;
-}
-#portfolio figure {
-    text-align:center;
+    columns:2;
+    max-height: 100%;
 }
 
-#Reviews {
-
+#bio img {
+    width:500px;
+    align-items:center;
+    background-color: #89023E;
+    border:7px dotted #FFD9DA;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px 5px black;
+    align-items: center;
+}
+ul {
+    background-color: #89023E;
+    border: 7px dotted #FFD9DA;
+}
+ul li{
+    text-align:left;
+    font-family: 'Gilda Display';
+    padding:5px;
+}
+li{
+    font-weight: bold;
 }
 
+/* My Websites */
+
+
+
+
+
+
+
+/* Footer */
 footer {
     background-color:#26547D;
     border:7px double #7E9ACD;
     color:#FFD9DA;
     font-size: 15pt;
     text-align:center;
-    padding: 7px;
-    
+    padding: 7px; 
 }
