@@ -32,6 +32,9 @@ p{
     max-height: 100%;
 }
 /* Used codes from About Me Project */
+section#bio{
+    align-items:center;
+}
 #bio p:first-letter {
     color:#7E9ACD;
     font-size: 3em;
@@ -61,7 +64,14 @@ p{
     box-shadow: 5px 5px 5px 5px black;
     align-items: center;
 }
-
+#bio ul li:nth-child(odd){
+    background-color: #EA638C;
+    align-items:center;
+    color:#FFD9DA;
+}
+#bio ul li:nth-child(even){
+    background-color:#7E9ACD;
+}
 ul {
     background-color: #89023E;
     border: 7px dotted #FFD9DA;
