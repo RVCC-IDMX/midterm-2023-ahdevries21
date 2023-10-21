@@ -5,7 +5,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family:'Bebas Neue';
     font-size: 60pt;
-    text-align:center;2222
+    text-align:center;
     border:7px dotted #FFD9DA;
     border-radius: 7px;
     padding-top: 7px;
@@ -41,6 +41,7 @@ p{
     box-shadow: 5px 5px 5px 5px black;
     align-items: center;
 }
+
 ul {
     background-color: #89023E;
     border: 7px dotted #FFD9DA;
@@ -52,17 +53,81 @@ ul li{
 }
 li{
     font-weight: bold;
+    color:#FFD9DA;
 }
 
 /* My Websites */
 #portfolio {
     background-color: #89023E;
+    padding:15px;
 }
 
+#gallery{
+    display:flex;
+    columns:3;
+    align-items:center;
+    max-width:100%;
 
+}
+#gallery img {
+    width:300px;
+    display:flex;
+    align-items:center;
+    border:7px double #7E9ACD;
+    max-height:100;
+    
+}
 
+#gallery figcaption {
+    font-family:'Gilda Display';
+    align-items:center;
+    color:#FFD9DA;
+    align-items:center;
+    text-align:left;
+    padding:5px;
+}
+/* Gallery Links */
+a{
+    color:#FFD9DA;
+}
 
+a:links {
+    color:#FFD9DA;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:active {
+    color:#FFD9DA;
+}
 
+/* Review Section */
+#Reviews{
+    background-color:#FFD9DA;
+    color:#89023E;
+    text-align:center;
+    rows:2;
+    flex-direction:rows;
+    padding:15px;
+    border:7px solid #26547D;
+
+    
+
+}
+h1{
+    color:#89023E;
+    border:7px dotted #26547D;
+    
+}
+h6{
+    color:#89023E;
+}
+#Reviews p{
+    text-align:center;
+    font-style:oblique;
+    padding left:5px;
+    padding-right:5px;
+  
+}
 
 /* Footer */
 footer {
