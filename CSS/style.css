@@ -31,6 +31,26 @@ p{
     columns:2;
     max-height: 100%;
 }
+/* Used codes from About Me */
+#bio p:first-letter {
+    color:#7E9ACD;
+    font-size: 3em;
+    float:left;
+    padding: 0.25em;
+    margin:.05em;
+    line-height:.65;
+    border:3px solid #ffccc7;
+    background-color:#EA638C;
+    text-shadow:5px 5px 3px rgba(0,0,0,.5);
+    box-shadow:5px 5px 3px rgba(0,0,0,.5);
+    text-align:center;
+    font-weight:bold;
+    border-top-left-radius: .2em;
+    border-bottom-right-radius:.2em;
+    clear:both;
+    font-style:bold;
+    
+}
 
 #bio img {
     width:500px;
