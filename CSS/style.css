@@ -31,7 +31,7 @@ p{
     columns:2;
     max-height: 100%;
 }
-/* Used codes from About Me */
+/* Used codes from About Me Project */
 #bio p:first-letter {
     color:#7E9ACD;
     font-size: 3em;
@@ -79,7 +79,8 @@ li{
 /* My Websites */
 #portfolio {
     background-color: #89023E;
-    padding:15px;
+    padding:15px; 
+    border:7px double #FFD9DA;
 }
 
 #gallery{
@@ -87,6 +88,7 @@ li{
     columns:3;
     align-items:center;
     max-width:100%;
+
 
 }
 #gallery img {
@@ -128,19 +130,14 @@ a:active {
     rows:2;
     flex-direction:rows;
     padding:15px;
-    border:7px solid #26547D;
-
-    
-
+    border:10px double #26547D;
 }
+
 h1{
     color:#89023E;
-    border:7px dotted #26547D;
-    
+    border:7px dotted #26547D;   
 }
-h6{
-    color:#89023E;
-}
+
 #Reviews p{
     text-align:center;
     font-style:oblique;
